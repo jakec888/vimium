@@ -211,6 +211,7 @@ if Vomnibar?
   extend NormalModeCommands,
     "Vomnibar.activate": Vomnibar.activate.bind Vomnibar
     "Vomnibar.activateInNewTab": Vomnibar.activateInNewTab.bind Vomnibar
+    "Vomnibar.activateClipboardSelection": Vomnibar.activateClipboardSelection.bind Vomnibar
     "Vomnibar.activateTabSelection": Vomnibar.activateTabSelection.bind Vomnibar
     "Vomnibar.activateBookmarks": Vomnibar.activateBookmarks.bind Vomnibar
     "Vomnibar.activateBookmarksInNewTab": Vomnibar.activateBookmarksInNewTab.bind Vomnibar

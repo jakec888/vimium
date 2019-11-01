@@ -178,6 +178,7 @@ Commands =
       "Vomnibar.activateInNewTab",
       "Vomnibar.activateBookmarks",
       "Vomnibar.activateBookmarksInNewTab",
+      "Vomnibar.activateClipboardSelection",
       "Vomnibar.activateTabSelection",
       "Vomnibar.activateEditUrl",
       "Vomnibar.activateEditUrlInNewTab"]
@@ -301,6 +302,8 @@ defaultKeyMappings =
   "o": "Vomnibar.activate"
   "O": "Vomnibar.activateInNewTab"
 
+  "C": "Vomnibar.activateClipboardSelection"
+
   "T": "Vomnibar.activateTabSelection"
 
   "b": "Vomnibar.activateBookmarks"
@@ -398,6 +401,7 @@ commandDescriptions =
 
   "Vomnibar.activate": ["Open URL, bookmark or history entry", { topFrame: true }]
   "Vomnibar.activateInNewTab": ["Open URL, bookmark or history entry in a new tab", { topFrame: true }]
+  "Vomnibar.activateClipboardSelection": ["Search through your clipboard", { topFrame: true }]
   "Vomnibar.activateTabSelection": ["Search through your open tabs", { topFrame: true }]
   "Vomnibar.activateBookmarks": ["Open a bookmark", { topFrame: true }]
   "Vomnibar.activateBookmarksInNewTab": ["Open a bookmark in a new tab", { topFrame: true }]
